@@ -1,0 +1,181 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+@keyframes blink {
+  50% {
+    opacity: 0.2;
+  }
+  80% {
+    opacity: 0.5;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 80vw;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.navbar {
+  display: flex;
+  height: 67px;
+}
+.navbar li {
+  list-style: none;
+  margin: 0 12px;
+  cursor: pointer;
+}
+.navbar li:hover {
+  color: rgb(255, 102, 0);
+  font-weight: bolder;
+}
+
+.topleft {
+  width: 50%;
+}
+
+.topright {
+  width: 50%;
+}
+
+.section1 {
+  /* max-height: 100vh; */
+  color: #ec7466;
+}
+
+.section1 h1 {
+  color: #9c2f23;
+  font-size: 2rem;
+}
+
+.section1 span {
+  animation: blink 1s linear infinite;
+}
+
+.logo {
+  font-size: 1.6rem;
+  cursor: pointer;
+}
+
+.logo:hover {
+  color: rgb(34, 221, 212);
+  font-weight: bolder;
+}
+
+.dumbellimg {
+  width: 289px;
+}
+
+.topright .gymimg {
+  width: 466px;
+}
+
+.section2 {
+  padding: 73px;
+}
+
+.section2 h1 {
+  font-size: 2.3rem;
+}
+
+.section2 p {
+  padding: 0 8vw;
+  text-align: center;
+}
+
+.box {
+  padding: 8px 0;
+  margin: 12px 22px;
+  min-width: 20vw;
+  border: 2px solid rgb(138, 62, 19);
+  border-radius: 8px;
+  text-align: center;
+  z-index: 1;
+}
+
+.box h2 {
+  font-size: 2rem;
+  padding: 15px 0;
+}
+
+.box:hover {
+  background-color: rgb(255, 235, 209);
+}
+
+.highlighted {
+  font-size: 1.2rem;
+  font-weight: bolder;
+}
+
+.box ul {
+  list-style-type: none;
+}
+
+.box ul li {
+  margin: 12px 2px;
+}
+
+.plantable {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section3 h1 {
+  color: #9c2f23;
+}
+
+.section3 table {
+  width: 100%;
+  margin-bottom: 140px;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+.section3 table tr:hover {
+  background-color: rgb(255, 235, 209);
+}
+
+.section3 table th {
+  width: 23vw;
+  border-bottom: 3px solid brown;
+  padding: 15px 0;
+  font-size: 18px;
+  font-weight: bolder;
+}
+
+.section3 table td {
+  border-bottom: 3px solid brown;
+}
+
+.section3 h1 {
+  font-size: 2.3rem;
+}
+
+.section3 {
+  padding: 73px;
+}
+
+footer {
+  padding: 23px;
+  text-align: center;
+  background-color: #ffedc7;
+}
+
+footer:hover {
+  color: rgb(105, 24, 255);
+  font-weight: bolder;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 12px;
+}
+
+.deal {
+  font-size: 1.2rem;
+  font-weight: bolder;
+  margin: 12px 0;
+}
